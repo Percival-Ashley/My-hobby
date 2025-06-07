@@ -94,9 +94,19 @@
       .grid img:hover {
         transform: scale(2);
       }
+      .dark {
+        background: black;
+        color: white;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark a {
+        color: plum;
+      }
     </style>
   </head>
-  <body>
+  <body class="dark">
     <button class="theme-button">Dark theme</button>
     <div class="container">
       <h1>💻 What is Coding?</h1>
