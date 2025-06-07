@@ -2,112 +2,130 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Hobby</title>
+    <title>Coding - My hobby 💻</title>
     <style>
       body {
         background: plum;
       }
+
       h1 {
         text-align: center;
       }
+
       h2 {
         text-align: center;
       }
+
       img {
         max-width: 100%;
       }
+
       p {
         font-size: 18px;
         line-height: 1.5;
       }
+
       button {
         display: block;
         margin: 0 auto;
         border: 1px solid plum;
-        background: whitesmoke;
+        background: white;
         font-size: 20px;
         border-radius: 6px;
         padding: 10px 15px;
         transition: all 150ms ease-in-out;
       }
+
       button:hover {
         background: plum;
         cursor: pointer;
       }
       .container {
         max-width: 600px;
-        background: whitesmoke;
+        margin: 20px auto;
+        background: white;
         padding: 20px;
         border-radius: 10px;
-        margin: 20px auto;
       }
+
       footer {
         text-align: center;
-        margin-top: 10px;
-        color: white;
-        font-size: 15px;
-        font-family: "Courier New", Courier, monospace;
+        margin: 10px 0;
+        font-size: 18px;
       }
+
       .theme-button {
         font-size: 10px;
         background: black;
         color: white;
-        padding: 5px 8px;
+        padding: 5 8px;
       }
+
       .theme-button:hover {
-        background: white;
         color: black;
+        background: white;
       }
+
       .coding-intro-picture {
         border-radius: 10px;
         transition: all 150ms ease-in-out;
       }
+
       .coding-intro-picture:hover {
         filter: contrast(80%);
         transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
       }
     </style>
   </head>
   <body>
     <button class="theme-button">Dark theme</button>
     <div class="container">
-      <h1>Coding</h1>
-      <h2>My favorite hobby</h2>
-      <a href="https://en.wikipedia.org/wiki/Coding"
-        ><img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/520/original/Screenshot_%28614%29.png?1749216227
-        "
+      <h1>💻 What is Coding?</h1>
+      <h2>My favorite type of hobby</h2>
+      <a href="https://en.wikipedia.org/wiki/Coding" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/520/original/Screenshot_%28614%29.png?1749216227"
           alt=""
           class="coding-intro-picture"
-      /></a>
+        />
+      </a>
       <div class="grid">
         <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/523/original/Screenshot_%28616%29.png?1749217058
-        "
-          alt=""
-        />
-
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/522/original/Screenshot_%28615%29.png?1749217021
-
-        "
-          alt=""
-        />
-
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/524/original/Screenshot_%28617%29.png?1749217083
-
-        "
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/523/original/Screenshot_%28616%29.png?1749217058"
           alt=""
         />
         <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/532/original/Screenshot_%28618%29.png?1749225300
-        "
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/522/original/Screenshot_%28615%29.png?1749217021"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/524/original/Screenshot_%28617%29.png?1749217083"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/532/original/Screenshot_%28618%29.png?1749225300"
           alt=""
         />
       </div>
-      <br />
       <p>
         Coding is my favorite hobby because it allows me to be creative while
         solving real-world problems. I enjoy the process of turning ideas into
@@ -118,12 +136,13 @@
         coding keeps me engaged and constantly learning. I love the community
         aspect as well, where I can share my projects, get feedback, and
         collaborate with others who share the same passion.
+        <br /><br />
+        📖
+        <a href="https://en.wikipedia.org/wiki/Computer_programming">
+          <strong> Read on Wikipedia </strong>
+        </a>
       </p>
-      <br />
-      <a href="https://en.wikipedia.org/wiki/Computer_programming"
-        >📖Read on wikipedia</a
-      >
-      <br />
+
       <button>Learn Coding</button>
     </div>
     <footer>
