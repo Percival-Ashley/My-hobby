@@ -164,6 +164,8 @@
     <script>
       function changeTheme() {
         let body = document.querySelector("body");
+        // you can also use body.classList.toggle("dark"); and remove the if-else statement, it will work the same way
+        // but I prefer the if-else statement for clarity
         if (body.classList.contains("dark")) {
           body.classList.remove("dark");
         } else {
